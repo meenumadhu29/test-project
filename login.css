@@ -1,0 +1,42 @@
+html, body {
+    height:100%;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #4da6ff;
+}
+
+.li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #003380;
+}
+
+.list{
+font-family:Arial, Helvetica, sans-serif;
+font-size:20px;
+color:#000093;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px white;
+}
